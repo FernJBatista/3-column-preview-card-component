@@ -216,4 +216,38 @@ main button:hover {
   color: var(--Very-light-gray);
   border: 2px solid var(--Very-light-gray);
   box-sizing: border-box;
+}
+
+@media (max-width: 478px) {
+  body {
+    padding: 4rem 1rem;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1fr 1fr 1fr;
+    min-width: 100%;
+  }
+  main section {
+    padding: 3rem 2rem;
+  }
+  main section div {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  main section.sedans {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  main section.suvs {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  main section.luxury {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
 }/*# sourceMappingURL=styles.css.map */

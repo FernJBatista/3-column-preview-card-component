@@ -229,3 +229,41 @@ main {
         box-sizing: border-box;
     }
 }
+
+@media (max-width: 478px) {
+    body {
+        padding: 4rem 1rem;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1fr 1fr 1fr;
+        min-width: 100%;
+
+        section {
+            padding: 3rem 2rem;
+            div {
+                gap: 2rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+        section.sedans {
+            grid-row: 1;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        section.suvs {
+            grid-row: 2;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        section.luxury {
+            grid-row: 3;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    }
+}
