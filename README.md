@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Project Screenshot](.//images/Screenshot%202024-02-25%20122421.png)
+![Project Screenshot](./images/Screenshot%202024-02-25%20122421.png)
 
 ### Links
 
--   Solution URL: [GitHub](https://your-solution-url.com)
--   Live Site URL: [Live Site](https://your-live-site-url.com)
+-   Solution URL: [GitHub](https://github.com/FernJBatista/3-column-preview-card-component)
+-   Live Site URL: [Live Site](https://fernjbatista.github.io/3-column-preview-card-component/)
 
 ## My process
 
